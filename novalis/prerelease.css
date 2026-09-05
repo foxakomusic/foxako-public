@@ -875,17 +875,6 @@ footer .fl {
   transform:scale(1.04);
 }
 
-.cover-zoom span {
-  position:absolute;
-  bottom:0;
-  left:0;
-  right:0;
-  padding:8px;
-  background:rgba(7,10,28,.85);
-  font:9px var(--margin);
-  text-transform:uppercase;
-  letter-spacing:.08em;
-}
 
 .zoomable {
   cursor:zoom-in;
