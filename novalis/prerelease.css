@@ -1017,3 +1017,22 @@ footer .fl {
   gap: 24px;
   flex-wrap: wrap;
 }
+
+.premiere-reminder {
+  margin-top: 22px;
+  font-size: 14px;
+}
+.premiere-reminder a {
+  color: var(--cyan);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.premiere-reminder a:hover {
+  color: var(--cream);
+}
+.premiere-reminder span {
+  display: block;
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 12px;
+}
