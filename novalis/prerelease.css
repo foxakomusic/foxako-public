@@ -518,14 +518,11 @@ nav .rt:hover {
 }
 
 .disc .ic svg {
-  min-height: 64px;
-  padding: 14px 18px;
-  gap: 12px;
-  background: rgba(14, 209, 252, .04);
-  font-family: var(--margin);
-  font-size: 13px;
-  fill:currentColor;
-  display:block;
+  width: 46px;
+  height: 46px;
+  flex-shrink: 0;
+  fill: currentColor;
+  display: block;
 }
 
 .disc h2 {
