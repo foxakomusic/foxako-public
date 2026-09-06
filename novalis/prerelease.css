@@ -1030,9 +1030,3 @@ footer .fl {
 .premiere-reminder a:hover {
   color: var(--cream);
 }
-.premiere-reminder span {
-  display: block;
-  margin-top: 8px;
-  color: var(--muted);
-  font-size: 12px;
-}
