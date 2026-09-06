@@ -570,14 +570,7 @@ nav .rt:hover {
 }
 
 /* notify */
-  .notify-grid {
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:40px;
-  align-items:flex-start;
-}
-
-.social {
+  .social {
   display:flex;
   gap:12px;
   flex-wrap:wrap;
@@ -727,11 +720,6 @@ footer .fl {
 
   .timeline {
     grid-template-columns:1fr 1fr;
-  }
-
-  .notify-grid {
-    grid-template-columns:1fr;
-    gap:26px;
   }
 
   .disc {
@@ -999,18 +987,6 @@ footer .fl {
   width:44%
 }
 
-.release-contact {
-  margin-top:24px;
-}
-
-.discord-link {
-  margin-top:20px;
-}
-
-.notification-note {
-  margin-top:14px;
-}
-
 .artist-note {
   margin-top: 10px;
   padding: 18px 20px;
@@ -1033,4 +1009,11 @@ footer .fl {
   color: var(--muted);
   font-size: 14px;
   line-height: 1.75;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
 }
