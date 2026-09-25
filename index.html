@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script>
+/* The homepage goes live at midnight in Zurich = 22:00 UTC on 22 September 2026.
+   Before that, visitors are sent to the countdown page. Add ?preview to bypass. */
+(function () {
+  var RELEASE = Date.UTC(2026, 8, 22, 22, 0, 0);
+  if (location.protocol === 'file:') return;
+  if (location.search.indexOf('preview') !== -1) return;
+  if (Date.now() < RELEASE) location.replace('/novalis/');
+})();
+</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Foxako - Am I Alive | Chapter One of NOVALIS</title>
+<meta name="description" content="Am I Alive, the first chapter of NOVALIS: an animated science-fiction universe by Foxako, where cinematic electronic music, 3D animation and storytelling unfold together.">
+<link rel="canonical" href="https://foxako.com/">
+<link rel="icon" type="image/svg+xml" sizes="any" href="assets/favicon-orange.svg">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Foxako">
+<meta property="og:title" content="Foxako - Am I Alive | Chapter One of NOVALIS">
+<meta property="og:description" content="An animated science-fiction universe where cinematic electronic music, 3D animation and storytelling unfold together. Chapter One is out.">
+<meta property="og:image" content="https://foxako.com/assets/og_image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://foxako.com/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Foxako - Am I Alive | Chapter One of NOVALIS">
+<meta name="twitter:description" content="An animated science-fiction universe where cinematic electronic music, 3D animation and storytelling unfold together.">
+<meta name="twitter:image" content="https://foxako.com/assets/og_image.jpg">
+<link rel="stylesheet" href="styles/release.css">
+<script src="scripts/release.js" defer></script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+<nav>
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Foxako"><img class="logotype" src="assets/foxako_logo.svg" alt="Foxako"><img class="mark" src="assets/foxako_logomark.svg" alt="Foxako"></a>
+    <input type="checkbox" id="navtoggle" class="navtoggle" aria-label="Menu">
+    <label for="navtoggle" class="hamb"><span></span><span></span><span></span></label>
+    <div class="links">
+      <a href="#watch">Watch</a>
+      <a href="#listen">Listen</a>
+      <a href="#world">The world</a>
+      <a href="#about">The artist</a>
+      <a class="cta" href="#contact">Follow</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero" id="top">
+  <video class="bg" autoplay muted loop playsinline preload="auto" poster="assets/hero_skyline.jpg" data-src="assets/hero.mp4"></video>
+  <div class="scrim"></div>
+  <div class="wrap">
+    <div class="kicker">Chapter One of NOVALIS</div>
+    <h1 class="sr-only">Foxako - Am I Alive, Chapter One of NOVALIS</h1>
+    <img class="logo" src="assets/logo_aia_t.png" alt="Am I Alive">
+    <p class="lead">An animated science-fiction universe where cinematic electronic music, 3D animation and storytelling unfold together.</p>
+    <div class="btnrow">
+      <a class="btn solid" href="#watch">Watch the music video</a>
+      <a class="btn" href="#listen">Listen</a>
+      <a class="hero-discord-icon" href="https://discord.gg/wDdw82DTWy" target="_blank" rel="noopener" aria-label="Join the Foxako Discord" title="Join the Discord"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.317 4.369a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.211.375-.445.865-.608 1.249a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.036A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.1 13.1 0 0 1-1.872-.892.077.077 0 0 1-.008-.128c.126-.094.252-.192.372-.291a.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.009c.12.099.246.198.373.292a.077.077 0 0 1-.006.127c-.598.35-1.22.645-1.873.891a.077.077 0 0 0-.041.107c.36.698.772 1.363 1.225 1.993a.076.076 0 0 0 .084.028 19.84 19.84 0 0 0 6.002-3.03.077.077 0 0 0 .032-.056c.5-5.177-.838-9.674-3.549-13.66a.06.06 0 0 0-.031-.028zM8.02 15.331c-1.183 0-2.157-1.086-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.211 0 2.176 1.096 2.157 2.42 0 1.332-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.086-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.211 0 2.176 1.096 2.157 2.42 0 1.332-.946 2.418-2.157 2.418z"/></svg></a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<!-- WATCH -->
+<section id="watch">
+  <div class="wrap">
+    <div class="sec-head"><div class="kicker">The music video</div><h2>Am I <span class="o">Alive</span></h2></div>
+    <div class="media">
+      <iframe src="https://www.youtube.com/embed/EL3q3VxXFTs" title="Foxako - Am I Alive" loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="watch-caption"><p>Chapter One of NOVALIS. Music, story and animation by Foxako.</p><a href="#world">See inside the chapter ↓</a></div>
+  </div>
+</section>
+
+<!-- LISTEN -->
+<section id="listen">
+  <div class="wrap">
+    <div class="sec-head"><div class="kicker">Single &middot; Chapter 01</div><h2>Listen to <span class="o">Am I Alive</span></h2></div>
+    <div class="listen">
+      <button class="art artwork-button" data-full="assets/coverart_amialive-large.jpg" aria-label="Enlarge Am I Alive cover art"><img src="assets/coverart_amialive-web.jpg" width="640" height="640" alt="Am I Alive cover art" loading="lazy"></button>
+      <div class="stack"><p>The first release in the NOVALIS saga, out now.</p>
+        <div class="plats">
+          <a class="plat" href="https://open.spotify.com/track/2xC7CK3kqJuo2dQyd6xw0A" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.52 17.34c-.24.36-.66.48-1.02.24-2.82-1.74-6.36-2.1-10.56-1.14-.42.12-.78-.18-.9-.54-.12-.42.18-.78.54-.9 4.56-1.02 8.52-.6 11.64 1.32.42.18.48.66.3 1.02zm1.44-3.3c-.3.42-.84.6-1.26.3-3.24-1.98-8.16-2.58-11.94-1.38-.48.12-1.02-.12-1.14-.6-.12-.48.12-1.02.6-1.14 4.38-1.32 9.78-.66 13.5 1.62.36.18.54.78.24 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.1 9.3c-.6.18-1.2-.18-1.38-.72-.18-.6.18-1.2.72-1.38 4.32-1.32 11.4-1.02 15.9 1.62.54.3.72 1.02.42 1.56-.3.42-1.02.66-1.56.36z"/></svg>Spotify</a>
+          <a class="plat" href="https://music.apple.com/album/am-i-alive-single/6809043885" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.994 6.12395C24.0017 5.38699 23.9211 4.65175 23.754 3.93395C23.437 2.62395 22.692 1.62395 21.574 0.890953C21.0037 0.524783 20.3652 0.277825 19.697 0.164953C19.1801 0.0759486 18.6573 0.0258082 18.133 0.0149531C18.093 0.0119531 18.05 0.00495313 18.009 0.00195312H5.986C5.834 0.0119531 5.683 0.0189531 5.531 0.0279531C4.784 0.0709531 4.041 0.150953 3.338 0.427953C2.002 0.957953 1.038 1.87995 0.473 3.20795C0.281 3.65595 0.181 4.13295 0.11 4.61595C0.054 5.00795 0.022 5.40095 0.01 5.79595C0.01 5.82795 0.003 5.85795 0 5.88895V18.112C0.01 18.252 0.017 18.395 0.027 18.536C0.077 19.351 0.181 20.16 0.524 20.909C1.174 22.329 2.262 23.262 3.758 23.71C4.178 23.837 4.614 23.897 5.051 23.938C5.606 23.991 6.161 23.998 6.718 23.998H17.748C18.2729 23.9976 18.7973 23.9642 19.318 23.898C20.14 23.792 20.914 23.548 21.613 23.088C22.4421 22.552 23.0957 21.7847 23.493 20.881C23.679 20.461 23.786 20.011 23.863 19.557C23.976 18.882 24.001 18.199 24 17.517C23.998 13.717 24 9.92195 23.997 6.12395H23.994ZM17.571 10.114V15.826C17.571 16.243 17.513 16.653 17.327 17.032C17.037 17.622 16.567 17.994 15.939 18.172C15.589 18.272 15.233 18.329 14.869 18.345C13.919 18.39 13.096 17.745 12.926 16.809C12.8546 16.4048 12.9174 15.9884 13.1048 15.6233C13.2923 15.2582 13.594 14.9645 13.964 14.787C14.287 14.627 14.634 14.537 14.982 14.463C15.36 14.381 15.74 14.31 16.116 14.223C16.39 14.16 16.573 13.993 16.626 13.707C16.6396 13.6435 16.6463 13.5788 16.646 13.514C16.646 11.699 16.646 9.88395 16.644 8.07095C16.6433 8.00842 16.6346 7.94624 16.618 7.88595C16.578 7.73595 16.468 7.64295 16.314 7.65195C16.154 7.66195 15.996 7.68695 15.839 7.71795C15.079 7.86795 14.319 8.02095 13.559 8.17395L11.234 8.64395L9.86 8.92195C9.844 8.92495 9.828 8.93195 9.812 8.93495C9.535 9.01195 9.435 9.13795 9.422 9.42495C9.42 9.46695 9.422 9.51095 9.422 9.55495C9.42 12.157 9.422 14.759 9.419 17.36C9.419 17.78 9.372 18.196 9.204 18.587C8.926 19.227 8.434 19.627 7.77 19.82C7.42 19.92 7.06 19.98 6.695 19.992C5.735 20.028 4.94 19.392 4.775 18.448C4.635 17.636 5.005 16.763 5.929 16.373C6.286 16.223 6.659 16.141 7.037 16.063C7.324 16.003 7.612 15.947 7.897 15.886C8.28 15.803 8.48 15.563 8.497 15.172V15.022C8.497 12.062 8.497 9.09995 8.499 6.13995C8.499 6.01695 8.512 5.88995 8.541 5.76995C8.611 5.48495 8.814 5.32195 9.087 5.25195C9.342 5.18595 9.602 5.13995 9.861 5.08695C10.594 4.93695 11.327 4.79095 12.061 4.64295L14.331 4.18295C15.001 4.04895 15.671 3.91295 16.341 3.77995C16.561 3.73695 16.783 3.69195 17.004 3.67395C17.314 3.64895 17.527 3.84395 17.558 4.15595C17.566 4.22895 17.57 4.30395 17.57 4.37895C17.572 6.28895 17.572 8.20095 17.57 10.111L17.571 10.114Z"/></svg>Apple Music</a>
+          <a class="plat" href="https://music.youtube.com/watch?v=N66udMJgYSg" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 0C5.376 0 0 5.376 0 12s5.376 12 12 12 12-5.376 12-12S18.624 0 12 0zm0 19.104c-3.924 0-7.104-3.18-7.104-7.104S8.076 4.896 12 4.896s7.104 3.18 7.104 7.104-3.18 7.104-7.104 7.104zM12 6.72c-2.916 0-5.28 2.364-5.28 5.28s2.364 5.28 5.28 5.28 5.28-2.364 5.28-5.28S14.916 6.72 12 6.72zm-1.2 7.68V9.6l4.2 2.4-4.2 2.4z"/></svg>YouTube Music</a>
+          <a class="plat" href="https://www.deezer.com/artist/67845392" target="_blank" rel="noopener"><svg viewBox="-0.02 0 277.13 277.12" aria-hidden="true"><g transform="translate(-13.9)"><path d="M21.9 115.7c4.4 0 8-14.5 8-32.4s-3.6-32.4-8-32.4-8 14.5-8 32.4 3.6 32.4 8 32.4"/><path d="M256.8 18c-4.2 0-7.9 9.3-10.5 24.2C242.1 16.7 235.4 0 227.8 0c-9 0-16.9 23.5-20.6 57.7C203.5 32.9 198 17 191.9 17c-8.6 0-16 31.2-18.7 74.7-5.1-22.3-12.5-36.3-20.7-36.3s-15.6 14-20.7 36.3C129 48.2 121.7 17 113 17c-6.2 0-11.7 15.9-15.3 40.8C94 23.5 86.2 0 77.1 0c-7.6 0-14.4 16.7-18.5 42.3C56 27.4 52.3 18 48.1 18 40.3 18 34 50.5 34 90.5s6.3 72.4 14.1 72.4c3.2 0 6.2-5.5 8.5-14.7 3.7 33.8 11.5 57 20.5 57 7 0 13.2-13.9 17.4-35.9 2.9 41.8 10.1 71.5 18.5 71.5 5.3 0 10.1-11.8 13.7-30.9 4.3 39.5 14.2 67.2 25.8 67.2s21.5-27.7 25.8-67.2c3.6 19.1 8.4 30.9 13.7 30.9 8.4 0 15.6-29.7 18.5-71.5 4.2 22 10.4 35.9 17.4 35.9 9 0 16.8-23.2 20.5-57 2.4 9.2 5.3 14.7 8.5 14.7 7.8 0 14.1-32.4 14.1-72.4-.2-40-6.5-72.5-14.2-72.5"/><path d="M283 115.7c4.4 0 8-14.5 8-32.4s-3.6-32.4-8-32.4-8 14.5-8 32.4 3.6 32.4 8 32.4"/></g></svg>Deezer</a>
+          <a class="plat" href="https://music.amazon.fr/albums/B0HHY8SXFZ?marketplaceId=A13V1IB3VIYZZH&amp;musicTerritory=FR" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm-1.2 6h2.4v12h-2.4zm-4 3h2.4v6H6.8zm8 0h2.4v6h-2.4z"/></svg>Amazon Music</a>
+          <a class="plat" href="https://on.soundcloud.com/NLDB6CGR0giCVONY4z" target="_blank" rel="noopener"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M27.874 16.069c-0.565 0-1.105 0.11-1.596 0.308-0.328-3.574-3.447-6.377-7.25-6.377-0.931 0-1.834 0.176-2.635 0.474-0.311 0.116-0.393 0.235-0.393 0.466v12.585c0 0.243 0.195 0.445 0.441 0.469 0.011 0.001 11.36 0.007 11.434 0.007 2.278 0 4.125-1.776 4.125-3.965s-1.848-3.966-4.126-3.966zM12.5 24h1l0.5-7.007-0.5-6.993h-1l-0.5 6.993zM9.5 24h-1l-0.5-5.086 0.5-4.914h1l0.5 5zM4.5 24h1l0.5-4-0.5-4h-1l-0.5 4zM0.5 22h1l0.5-2-0.5-2h-1l-0.5 2z"/></svg>SoundCloud</a>
+        </div>
+        <p class="small"><a href="https://distrokid.com/hyperfollow/foxako/am-i-alive" target="_blank" rel="noopener">Am I Alive on all platforms ↗</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMMUNITY -->
+<section id="discord">
+  <div class="wrap">
+    <div class="disc">
+      <div class="ic" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><path d="M20.317 4.369a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.211.375-.445.865-.608 1.249a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.036A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.1 13.1 0 0 1-1.872-.892.077.077 0 0 1-.008-.128c.126-.094.252-.192.372-.291a.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.009c.12.099.246.198.373.292a.077.077 0 0 1-.006.127c-.598.35-1.22.645-1.873.891a.077.077 0 0 0-.041.107c.36.698.772 1.363 1.225 1.993a.076.076 0 0 0 .084.028 19.84 19.84 0 0 0 6.002-3.03.077.077 0 0 0 .032-.056c.5-5.177-.838-9.674-3.549-13.66a.06.06 0 0 0-.031-.028zM8.02 15.331c-1.183 0-2.157-1.086-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.211 0 2.176 1.096 2.157 2.42 0 1.332-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.086-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.211 0 2.176 1.096 2.157 2.42 0 1.332-.946 2.418-2.157 2.418z"/></svg>
+      </div>
+      <div>
+        <div class="kicker">Community</div>
+        <h2>Join the <span class="o">Discord</span></h2>
+        <div class="perks">
+          <span class="perk">Snippets before release</span>
+          <span class="perk">Behind the scenes</span>
+          <span class="perk">Talk with the community</span>
+        </div>
+      </div>
+      <div class="go">
+        <a class="btn solid" id="discordBtn" href="https://discord.gg/wDdw82DTWy" target="_blank" rel="noopener">Join the server</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- THE WORLD -->
+<section id="world">
+  <div class="wrap">
+    <div class="sec-head"><div class="kicker">The world</div><h2>Enter <span class="o">NOVALIS</span></h2></div>
+    <p style="max-width:800px;">A science-fiction saga unfolding through music and animation. Explore Chapter One below. Future chapters will be released separately, as their music and stories take shape.</p>
+    <div class="arcbar" aria-label="Chapter one of an ongoing saga"><span class="chapter-index">01 <span>/ …</span></span></div>
+    <div class="timeline">
+
+      <button class="arc open" type="button" data-chapter-toggle="panel-ch01" aria-expanded="false" aria-controls="panel-ch01">
+        <span class="badge">Unlocked</span>
+        <span class="ph"><img src="assets/coverart_amialive-web.jpg" alt="Am I Alive" loading="lazy"></span>
+        <span class="ch">Chapter 01</span>
+        <span class="yr">2302</span>
+        <span class="nm">Am I Alive</span>
+        <span class="ds">Seventy-five years after the fall, the surviving Nomiras build a society among the ruins. One of them finds something that should not exist.</span>
+        <span class="go" data-label-open="See inside ↓" data-label-close="Close ↑">See inside ↓</span>
+      </button>
+
+    <div class="chapter-panel" id="panel-ch01" hidden>
+
+      <article class="cp-block cp-story">
+        <div class="cp-media">
+        <div class="gallery" data-gallery aria-roledescription="carousel" aria-label="Stills from Am I Alive">
+          <div class="gallery-track" id="gal-story" tabindex="0" aria-label="Stills from Am I Alive: swipe or use the arrow keys">
+          <figure class="gallery-slide"><button class="artwork-button" type="button" data-full="assets/story-03-breach.jpg" aria-label="Enlarge The energy breach"><img src="assets/story-03-breach.jpg" alt="The energy breach" loading="lazy"></button></figure>
+          <figure class="gallery-slide"><button class="artwork-button" type="button" data-full="assets/story-01-asha.jpg" aria-label="Enlarge Asha in the ruins"><img src="assets/story-01-asha.jpg" alt="Asha in the ruins" loading="lazy"></button></figure>
+          <figure class="gallery-slide"><button class="artwork-button" type="button" data-full="assets/story-02-corridor.jpg" aria-label="Enlarge A corridor beneath the ruins"><img src="assets/story-02-corridor.jpg" alt="A corridor beneath the ruins" loading="lazy"></button></figure>
+          <figure class="gallery-slide"><button class="artwork-button" type="button" data-full="assets/story-04-nomiras.jpg" aria-label="Enlarge The Nomiras"><img src="assets/story-04-nomiras.jpg" alt="The Nomiras" loading="lazy"></button></figure>
+          </div>
+          <div class="gallery-controls"><span class="gallery-count" aria-live="polite">01 / 04</span><div><button type="button" data-prev aria-label="Previous image" aria-controls="gal-story">&#8592;</button><button type="button" data-next aria-label="Next image" aria-controls="gal-story">&#8594;</button></div></div>
+        </div>
+        </div>
+        <div class="cp-copy">
+          <p class="cp-eyebrow">01 &mdash; The story</p>
+          <h3>A discovery in the ruins</h3>
+          <p>Asha, a Nomira from the ExNova-1 reconnaissance squad, enters the abandoned ruins of NOVALIS. Beneath an old bridge, a trail of powered cables leads her into a forgotten tunnel.</p>
+          <details>
+            <summary>Full synopsis &middot; spoilers</summary>
+            <div class="stack">
+              <p>&ldquo;Am I Alive&rdquo; opens the saga in 2302, long after the Last War. While the rest of her squad moves towards a mysterious source of infinite energy, Asha follows the cables alone.</p>
+              <p>Hidden inside the tunnel, she discovers a cryogenic chamber containing the last human child. What Asha does not yet fully understand is that the child is also her. The child&rsquo;s consciousness was duplicated and transferred into Asha. While the original body and mind remained frozen in time, Asha continued to live, learn and grow through an entire lifetime.</p>
+            </div>
+          </details>
+        </div>
+      </article>
+
+      <section class="cp-bts">
+        <header class="cp-bts-head">
+          <p class="cp-eyebrow">02 &mdash; Behind the scenes</p>
+          <h3>How the chapter was made</h3>
+          <p class="small">Four stages, from the first recording to the final frame.</p>
+        </header>
+        <div class="bts-list">
+        <article class="bts-item">
+          <h4 class="bts-head"><button class="bts-toggle" type="button" aria-expanded="false" aria-controls="bts-music">
+            <span class="bts-num">01</span><span class="bts-name">Music production</span><span class="bts-count">3 videos</span><span class="bts-mark" aria-hidden="true"></span>
+          </button></h4>
+          <div class="bts-body" id="bts-music" hidden>
+            <div class="cp-media">
+        <div class="gallery" data-gallery aria-roledescription="carousel" aria-label="Music production">
+          <div class="gallery-track" id="gal-music" tabindex="0" aria-label="Music production: swipe or use the arrow keys">
+          <figure class="gallery-slide"><video class="gallery-video" controls preload="metadata" playsinline poster="assets/bts-music-01_mainsample-poster.jpg" aria-label="The main sample"><source src="assets/bts-music-01_mainsample.mp4" type="video/mp4"></video><figcaption>Main sample</figcaption></figure>
+          <figure class="gallery-slide"><video class="gallery-video" controls preload="metadata" playsinline poster="assets/bts-music-02_samplechopped-poster.jpg" aria-label="The sample chopped"><source src="assets/bts-music-02_samplechopped.mp4" type="video/mp4"></video><figcaption>Main sample chopped, pitched and treated</figcaption></figure>
+          <figure class="gallery-slide"><video class="gallery-video" controls preload="metadata" playsinline poster="assets/bts-music-03_fulltrackpreview-poster.jpg" aria-label="Full track preview"><source src="assets/bts-music-03_fulltrackpreview.mp4" type="video/mp4"></video><figcaption>Main track with drums, vocals and other details</figcaption></figure>
+          </div>
+          <div class="gallery-controls"><span class="gallery-count" aria-live="polite">01 / 03</span><div><button type="button" data-prev aria-label="Previous item" aria-controls="gal-music">&#8592;</button><button type="button" data-next aria-label="Next item" aria-controls="gal-music">&#8594;</button></div></div>
+        </div>
+            </div>
+          </div>
+        </article>
+        <article class="bts-item">
+          <h4 class="bts-head"><button class="bts-toggle" type="button" aria-expanded="false" aria-controls="bts-storyboard">
+            <span class="bts-num">02</span><span class="bts-name">Storyboarding</span><span class="bts-count">6 images</span><span class="bts-mark" aria-hidden="true"></span>
+          </button></h4>
+          <div class="bts-body" id="bts-storyboard" hidden>
+            <div class="cp-media">
+        <div class="gallery" data-gallery aria-roledescription="carousel" aria-label="Storyboarding">
+          <div class="gallery-track" id="gal-storyboard" tabindex="0" aria-label="Storyboarding: swipe or use the arrow keys">
+          <figure class="gallery-slide"><button class="artwork-button" type="button" data-full="assets/bts-storyboard-01.jpg" aria-label="Enlarge Previz frame under the bridge"><img src="assets/bts-storyboard-01.jpg" alt="Previz frame under the bridge" loading="lazy"></button></figure>
+          <figure class="gallery-slide"><button class="artwork-button" type="button" data-full="assets/bts-storyboard-02.jpg" aria-label="Enlarge Previz frame of the squad in fog"><img src="assets/bts-storyboard-02.jpg" alt="Previz frame of the squad in fog" loading="lazy"></button></figure>
+          <figure class="gallery-slide"><button class="artwork-button" type="button" data-full="assets/bts-storyboard-03.jpg" aria-label="Enlarge Previz frame of the tunnel"><img src="assets/bts-storyboard-03.jpg" alt="Previz frame of the tunnel" loading="lazy"></button></figure>
+          <figure class="gallery-slide"><button class="artwork-button" type="button" data-full="assets/bts-storyboard-04.jpg" aria-label="Enlarge Previz frame of the corridor"><img src="assets/bts-storyboard-04.jpg" alt="Previz frame of the corridor" loading="lazy"></button></figure>
+          <figure class="gallery-slide"><button class="artwork-button" type="button" data-full="assets/bts-storyboard-05.jpg" aria-label="Enlarge Previz frame of the chamber"><img src="assets/bts-storyboard-05.jpg" alt="Previz frame of the chamber" loading="lazy"></button></figure>
+          <figure class="gallery-slide"><button class="artwork-button" type="button" data-full="assets/bts-storyboard-06.jpg" aria-label="Enlarge The shot list spreadsheet"><img src="assets/bts-storyboard-06.jpg" alt="The shot list spreadsheet" loading="lazy"></button></figure>
+          </div>
+          <div class="gallery-controls"><span class="gallery-count" aria-live="polite">01 / 06</span><div><button type="button" data-prev aria-label="Previous image" aria-controls="gal-storyboard">&#8592;</button><button type="button" data-next aria-label="Next image" aria-controls="gal-storyboard">&#8594;</button></div></div>
+        </div>
+            </div>
+          </div>
+        </article>
+        <article class="bts-item">
+          <h4 class="bts-head"><button class="bts-toggle" type="button" aria-expanded="false" aria-controls="bts-3d">
+            <span class="bts-num">03</span><span class="bts-name">3D modeling</span><span class="bts-count">7 images</span><span class="bts-mark" aria-hidden="true"></span>
+          </button></h4>
+          <div class="bts-body" id="bts-3d" hidden>
+            <div class="cp-media">
+        <div class="gallery" data-gallery aria-roledescription="carousel" aria-label="3D modeling">
+          <div class="gallery-track" id="gal-3d" tabindex="0" aria-label="3D modeling: swipe or use the arrow keys">
+          <figure class="gallery-slide"><button class="artwork-button" type="button" data-full="assets/bts-3d-01.jpg" aria-label="Enlarge Blockout of the ruined city"><img src="assets/bts-3d-01.jpg" alt="Blockout of the ruined city" loading="lazy"></button></figure>
+          <figure class="gallery-slide"><button class="artwork-button" type="button" data-full="assets/bts-3d-02.jpg" aria-label="Enlarge Wide view of the ruins"><img src="assets/bts-3d-02.jpg" alt="Wide view of the ruins" loading="lazy"></button></figure>
+          <figure class="gallery-slide"><button class="artwork-button" type="button" data-full="assets/bts-3d-03.jpg" aria-label="Enlarge Camera and motion paths in the viewport"><img src="assets/bts-3d-03.jpg" alt="Camera and motion paths in the viewport" loading="lazy"></button></figure>
+          <figure class="gallery-slide"><button class="artwork-button" type="button" data-full="assets/bts-3d-04.jpg" aria-label="Enlarge Character placed in the greybox environment"><img src="assets/bts-3d-04.jpg" alt="Character placed in the greybox environment" loading="lazy"></button></figure>
+          <figure class="gallery-slide"><button class="artwork-button" type="button" data-full="assets/bts-3d-05.jpg" aria-label="Enlarge Low-poly vehicle model"><img src="assets/bts-3d-05.jpg" alt="Low-poly vehicle model" loading="lazy"></button></figure>
+          <figure class="gallery-slide"><button class="artwork-button" type="button" data-full="assets/bts-3d-06.jpg" aria-label="Enlarge Volumetric fog setup"><img src="assets/bts-3d-06.jpg" alt="Volumetric fog setup" loading="lazy"></button></figure>
+          <figure class="gallery-slide"><button class="artwork-button" type="button" data-full="assets/bts-3d-07.jpg" aria-label="Enlarge Screen graphics and compositing"><img src="assets/bts-3d-07.jpg" alt="Screen graphics and compositing" loading="lazy"></button></figure>
+          </div>
+          <div class="gallery-controls"><span class="gallery-count" aria-live="polite">01 / 07</span><div><button type="button" data-prev aria-label="Previous image" aria-controls="gal-3d">&#8592;</button><button type="button" data-next aria-label="Next image" aria-controls="gal-3d">&#8594;</button></div></div>
+        </div>
+            </div>
+          </div>
+        </article>
+        <article class="bts-item">
+          <h4 class="bts-head"><button class="bts-toggle" type="button" aria-expanded="false" aria-controls="bts-character">
+            <span class="bts-num">04</span><span class="bts-name">Character animation</span><span class="bts-count">6 images</span><span class="bts-mark" aria-hidden="true"></span>
+          </button></h4>
+          <div class="bts-body" id="bts-character" hidden>
+            <div class="cp-media">
+        <div class="gallery" data-gallery aria-roledescription="carousel" aria-label="Character animation">
+          <div class="gallery-track" id="gal-character" tabindex="0" aria-label="Character animation: swipe or use the arrow keys">
+          <figure class="gallery-slide"><button class="artwork-button portrait" type="button" style="--blur-src:url('assets/bts-character-01.jpg')" data-full="assets/bts-character-01.jpg" aria-label="Enlarge Walk cycle reference on green screen"><img src="assets/bts-character-01.jpg" alt="Walk cycle reference on green screen" loading="lazy"></button></figure>
+          <figure class="gallery-slide"><button class="artwork-button portrait" type="button" style="--blur-src:url('assets/bts-character-02.jpg')" data-full="assets/bts-character-02.jpg" aria-label="Enlarge Seated reference on green screen"><img src="assets/bts-character-02.jpg" alt="Seated reference on green screen" loading="lazy"></button></figure>
+          <figure class="gallery-slide"><button class="artwork-button portrait" type="button" style="--blur-src:url('assets/bts-character-03.jpg')" data-full="assets/bts-character-03.jpg" aria-label="Enlarge Gesture reference on green screen"><img src="assets/bts-character-03.jpg" alt="Gesture reference on green screen" loading="lazy"></button></figure>
+          <figure class="gallery-slide"><button class="artwork-button portrait" type="button" style="--blur-src:url('assets/bts-character-04.jpg')" data-full="assets/bts-character-04.jpg" aria-label="Enlarge Close-up of the costume"><img src="assets/bts-character-04.jpg" alt="Close-up of the costume" loading="lazy"></button></figure>
+          <figure class="gallery-slide"><button class="artwork-button portrait" type="button" style="--blur-src:url('assets/bts-character-05.jpg')" data-full="assets/bts-character-05.jpg" aria-label="Enlarge Full body reference on green screen"><img src="assets/bts-character-05.jpg" alt="Full body reference on green screen" loading="lazy"></button></figure>
+          <figure class="gallery-slide"><button class="artwork-button" type="button" data-full="assets/bts-character-06.jpg" aria-label="Enlarge Keying the filmed takes in software"><img src="assets/bts-character-06.jpg" alt="Keying the filmed takes in software" loading="lazy"></button></figure>
+          </div>
+          <div class="gallery-controls"><span class="gallery-count" aria-live="polite">01 / 06</span><div><button type="button" data-prev aria-label="Previous image" aria-controls="gal-character">&#8592;</button><button type="button" data-next aria-label="Next image" aria-controls="gal-character">&#8594;</button></div></div>
+        </div>
+            </div>
+          </div>
+        </article>
+        </div>
+      </section>
+
+      <p class="cp-foot"><a href="https://discord.gg/wDdw82DTWy" target="_blank" rel="noopener">Talk about this chapter on Discord &#8599;</a></p>
+    </div>
+
+      <div class="arc locked" aria-label="Chapter 2, locked">
+        <div class="badge">Locked</div>
+        <div class="ph"></div>
+        <div class="ch">Chapter 02</div>
+        <div class="yr">2<span class="redact">███</span>-2<span class="redact">███</span></div>
+        <div class="bar" style="width:80%"></div>
+        <div class="bar s" style="width:100%"></div>
+        <div class="bar s" style="width:62%"></div>
+        <div class="hint">Unlocks with the next release</div>
+      </div>
+
+      <div class="arc locked" aria-label="Chapter 3, locked">
+        <div class="badge">Locked</div>
+        <div class="ph"></div>
+        <div class="ch">Chapter 03</div>
+        <div class="yr">2<span class="redact">███</span>-2<span class="redact">███</span></div>
+        <div class="bar" style="width:66%"></div>
+        <div class="bar s" style="width:94%"></div>
+        <div class="bar s" style="width:50%"></div>
+        <div class="hint">Unlocks later</div>
+      </div>
+
+      <div class="arc locked" aria-label="Chapter 4, locked">
+        <div class="badge">Locked</div>
+        <div class="ph"></div>
+        <div class="ch">Chapter 04</div>
+        <div class="yr">2<span class="redact">███</span>-2<span class="redact">███</span></div>
+        <div class="bar" style="width:74%"></div>
+        <div class="bar s" style="width:88%"></div>
+        <div class="bar s" style="width:57%"></div>
+        <div class="hint">Unlocks later</div>
+      </div>
+
+      <div class="arc locked" aria-label="Chapter 5, locked">
+        <div class="badge">Locked</div>
+        <div class="ph"></div>
+        <div class="ch">Chapter 05</div>
+        <div class="yr">2<span class="redact">███</span>-2<span class="redact">███</span></div>
+        <div class="bar" style="width:58%"></div>
+        <div class="bar s" style="width:84%"></div>
+        <div class="bar s" style="width:44%"></div>
+        <div class="hint">Unlocks later</div>
+      </div>
+
+    </div>
+
+    <p class="small arcnote">Each chapter opens its own story and visual archive here. The next ones unlock as their music is released.</p>
+  </div>
+</section>
+
+<!-- THE ARTIST -->
+<section id="about">
+  <div class="wrap">
+    <div class="sec-head"><div class="kicker">The artist</div><h2>Who is <span class="o">Foxako</span></h2></div>
+    <div class="artist">
+      <div class="stack">
+        <p>Foxako is an electronic music producer and visual artist from French-speaking Switzerland. Drawing from electro house, French Touch, funk and disco, his music blends warm synthesizers, punchy rhythms and fragmented samples, with micro-sampling playing a central role in the way he chops, reshapes and rebuilds sound. Gaming-inspired details, imperfect textures and retrofuturist nostalgia are also part of his identity.</p>
+        <p>His process often begins with material he composes and records himself, before cutting it into small fragments and transforming it into something entirely new.</p>
+        <p>Alongside the music, Foxako is building an evolving creative universe that connects his releases through characters, visuals and storytelling. He composes the music, writes the stories and leads the project&rsquo;s visual direction across graphic design, motion, 3D environments and animation.</p>
+        <aside class="artist-note" aria-labelledby="artist-note-title">
+          <h3 class="artist-note-label" id="artist-note-title">A note on my process</h3>
+          <p>The music and visuals of NOVALIS are made without generative AI. I prefer rough edges, imperfections and choices that carry a personal intention. Even when the result is less polished, I want it to feel like something I made, not something generated on my behalf.</p>
+        </aside>
+      </div>
+      <div class="avatarbox">
+        <video autoplay muted loop playsinline preload="metadata"><source src="assets/foxako_avatar_loop.mp4" type="video/mp4"></video>
+      </div>
+    </div>
+    <div class="pressrow">
+      <div class="gallery" data-gallery aria-roledescription="carousel" aria-label="The Foxako avatar">
+        <div class="gallery-track" id="gal-avatar" tabindex="0" aria-label="The Foxako avatar: swipe or use the arrow keys">
+          <figure class="gallery-slide"><button class="artwork-button" type="button" data-full="assets/Avatar_banner_v1.jpg" aria-label="Enlarge the Foxako avatar"><img src="assets/Avatar_banner_v1.jpg" alt="The Foxako avatar" loading="lazy"></button></figure>
+          <figure class="gallery-slide"><button class="artwork-button" type="button" data-full="assets/Avatar_banner_v1_b.jpg" aria-label="Enlarge the Foxako avatar, second view"><img src="assets/Avatar_banner_v1_b.jpg" alt="The Foxako avatar, second view" loading="lazy"></button></figure>
+        </div>
+        <div class="gallery-controls"><span class="gallery-count" aria-live="polite">01 / 02</span><div><button type="button" data-prev aria-label="Previous image" aria-controls="gal-avatar">&#8592;</button><button type="button" data-next aria-label="Next image" aria-controls="gal-avatar">&#8594;</button></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" aria-label="Social links and contact">
+  <div class="wrap contact-details">
+        <div class="social-section"><div class="kicker">Stay connected</div><h2>Follow <span class="o">Foxako</span></h2>
+          <div class="social">
+            <a href="https://www.instagram.com/foxako/" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16zM12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63c-.79.31-1.46.72-2.12 1.38C1.36 2.67.95 3.34.63 4.14.33 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.31.79.72 1.46 1.38 2.12.66.66 1.33 1.07 2.12 1.38.76.3 1.64.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56.79-.31 1.46-.72 2.12-1.38.66-.66 1.07-1.33 1.38-2.12.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91a5.9 5.9 0 0 0-1.38-2.12A5.9 5.9 0 0 0 19.86.63c-.76-.3-1.64-.5-2.91-.56C15.67.01 15.26 0 12 0zm0 5.84a6.16 6.16 0 1 0 0 12.32 6.16 6.16 0 0 0 0-12.32zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.41-10.85a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88z"/></svg><span>Instagram</span></a>
+            <a href="https://www.tiktok.com/@foxako" target="_blank" rel="noopener" aria-label="TikTok" title="TikTok"><svg viewBox="0 0 24 24"><path d="M12.53.02C13.84 0 15.14.01 16.44 0c.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg><span>TikTok</span></a>
+            <a href="https://www.youtube.com/@Foxako" target="_blank" rel="noopener" aria-label="YouTube" title="YouTube"><svg viewBox="0 0 24 24"><path d="M23.5 6.19a3.02 3.02 0 0 0-2.12-2.14C19.5 3.55 12 3.55 12 3.55s-7.5 0-9.38.5A3.02 3.02 0 0 0 .5 6.19C0 8.07 0 12 0 12s0 3.93.5 5.81a3.02 3.02 0 0 0 2.12 2.14c1.88.5 9.38.5 9.38.5s7.5 0 9.38-.5a3.02 3.02 0 0 0 2.12-2.14C24 15.93 24 12 24 12s0-3.93-.5-5.81zM9.55 15.57V8.43L15.82 12l-6.27 3.57z"/></svg><span>YouTube</span></a>
+            <a href="https://open.spotify.com/artist/2Q41Lt1Np6bksippZcN4oR" target="_blank" rel="noopener" aria-label="Spotify" title="Spotify"><svg viewBox="0 0 24 24"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.52 17.34c-.24.36-.66.48-1.02.24-2.82-1.74-6.36-2.1-10.56-1.14-.42.12-.78-.18-.9-.54-.12-.42.18-.78.54-.9 4.56-1.02 8.52-.6 11.64 1.32.42.18.48.66.3 1.02zm1.44-3.3c-.3.42-.84.6-1.26.3-3.24-1.98-8.16-2.58-11.94-1.38-.48.12-1.02-.12-1.14-.6-.12-.48.12-1.02.6-1.14 4.38-1.32 9.78-.66 13.5 1.62.36.18.54.78.24 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.1 9.3c-.6.18-1.2-.18-1.38-.72-.18-.6.18-1.2.72-1.38 4.32-1.32 11.4-1.02 15.9 1.62.54.3.72 1.02.42 1.56-.3.42-1.02.66-1.56.36z"/></svg><span>Spotify</span></a>
+            <a href="https://soundcloud.com/foxako" target="_blank" rel="noopener" aria-label="SoundCloud" title="SoundCloud"><svg viewBox="0 0 32 32"><path d="M27.874 16.069c-0.565 0-1.105 0.11-1.596 0.308-0.328-3.574-3.447-6.377-7.25-6.377-0.931 0-1.834 0.176-2.635 0.474-0.311 0.116-0.393 0.235-0.393 0.466v12.585c0 0.243 0.195 0.445 0.441 0.469 0.011 0.001 11.36 0.007 11.434 0.007 2.278 0 4.125-1.776 4.125-3.965s-1.848-3.966-4.126-3.966zM12.5 24h1l0.5-7.007-0.5-6.993h-1l-0.5 6.993zM9.5 24h-1l-0.5-5.086 0.5-4.914h1l0.5 5zM4.5 24h1l0.5-4-0.5-4h-1l-0.5 4zM0.5 22h1l0.5-2-0.5-2h-1l-0.5 2z"></path></svg><span>SoundCloud</span></a>
+
+            <a href="https://discord.gg/wDdw82DTWy" target="_blank" rel="noopener" aria-label="Discord" title="Discord"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M433.7 91a416.5 416.5 0 0 0-105.6-33.2c-4.6 8.2-9.9 19.3-13.5 28.1-39.4-5.9-78.4-5.9-117.1 0-3.7-8.8-9.1-19.9-13.7-28.1-37.1 6.4-72.6 17.7-105.7 33.3-66.8 101-85 199.5-75.9 296.6 44.3 33.1 87.3 53.2 129.6 66.4 10.4-14.4 19.7-29.6 27.7-45.7-15.3-5.8-29.9-13-43.7-21.3 3.7-2.7 7.2-5.6 10.7-8.5 84.2 39.4 175.8 39.4 259 0 3.5 2.9 7.1 5.8 10.7 8.5-13.9 8.3-28.5 15.5-43.8 21.3 8 16 17.3 31.3 27.7 45.7 42.3-13.2 85.3-33.3 129.6-66.4 10.8-112.5-18-210.1-76-296.7M170.9 328c-25.3 0-46-23.6-46-52.4s20.3-52.4 46-52.4 46.5 23.6 46 52.4c.1 28.8-20.2 52.4-46 52.4m170.2 0c-25.3 0-46-23.6-46-52.4s20.3-52.4 46-52.4 46.5 23.6 46 52.4c0 28.8-20.3 52.4-46 52.4" fill="#ffffff"/></svg><span>Discord</span></a>
+          </div>
+        </div>
+        <div class="cline"><div class="lab">Contact</div><div class="val"><a href="mailto:foxako.music@gmail.com">foxako.music@gmail.com</a></div></div>
+        <div class="cline"><div class="lab">Based in</div><div class="val">French-speaking Switzerland</div></div>
+  </div>
+</section>
+
+</main>
+<footer>
+  <div class="wrap">
+    <span class="sig"><img src="assets/foxako_logomark_white.svg" alt="">Foxako · NOVALIS</span>
+    <span class="fl">Music, story &amp; animation by Foxako</span>
+  </div>
+</footer>
+
+<dialog class="artwork-dialog" aria-label="Enlarged artwork"><button class="dialog-close" type="button" aria-label="Close enlarged artwork">×</button><img alt=""></dialog>
+</body>
+</html>
